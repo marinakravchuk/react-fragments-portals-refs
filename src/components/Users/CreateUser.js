@@ -14,15 +14,15 @@ const CreateUser = (props) => {
     event.preventDefault();
     if (inputName.trim().length === 0 || inputAge.trim().length === 0) {
       setError({
-        title: "Некорректный ввод",
-        message: "Эти поля не могут быть пустыми",
+        title: "Invalid input",
+        message: "These fields cannot be empty",
       });
       return;
     }
     if (+inputAge < 1) {
       setError({
-        title: "Некорректный возраст",
-        message: "Возраст должен быть больше 0",
+        title: "Invalid age",
+        message: "Age must be greater than 0",
       });
       return;
     }
@@ -55,21 +55,21 @@ const CreateUser = (props) => {
       )}
       <Card className={styles.input}>
         <form onSubmit={createUserHandler}>
-          <label htmlFor="name">Имя</label>
+          <label htmlFor="name">Name</label>
           <input
             id="name"
             type="text"
             onChange={nameChangeHandler}
             value={inputName}
           />
-          <label htmlFor="age">Возраст</label>
+          <label htmlFor="age">Age</label>
           <input
             id="age"
             type="number"
             onChange={ageChangeHandler}
             value={inputAge}
           />
-          <Button type="submit">Добавить Пользователя</Button>
+          <Button type="submit">Add User</Button>
         </form>
       </Card>
     </div>
