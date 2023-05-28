@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-fragments-portals-refs/static/css/main.5d88754a.css",
+    "main.js": "/react-fragments-portals-refs/static/js/main.cc69f7ba.js",
+    "index.html": "/react-fragments-portals-refs/index.html",
+    "main.5d88754a.css.map": "/react-fragments-portals-refs/static/css/main.5d88754a.css.map",
+    "main.cc69f7ba.js.map": "/react-fragments-portals-refs/static/js/main.cc69f7ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d88754a.css",
+    "static/js/main.cc69f7ba.js"
+  ]
+}
